@@ -1,13 +1,10 @@
 {
   "name": "3d_portfolio",
-  "homepage": "https://myusername.github.io/Portfolio_Website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -17,7 +14,6 @@
     "@react-three/drei": "^9.77.3",
     "@react-three/fiber": "^8.13.3",
     "framer-motion": "^10.12.17",
-    "gh-pages": "^5.0.0",
     "math": "^0.0.3",
     "or": "^0.2.0",
     "react": "^18.2.0",
